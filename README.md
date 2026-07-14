@@ -125,21 +125,20 @@ The system can also be extended with **ESP8266 Wi-Fi** for remote traffic monito
 
 
 * Circuit Diagram
+                     IoT Based Smart Traffic Light Control System
 
-                  IoT Based Smart Traffic Light Control System
-
-                         ┌─────────────────────────┐
-                         │      Arduino UNO        │
+  ┌─────────────────────────┐
+  │      Arduino UNO        
                          │                         │
         IR Sensor A1 ----│ D2                  5V │----- +5V
         IR Sensor A2 ----│ D3                 GND │----- GND
         IR Sensor B1 ----│ D4                     │
         IR Sensor B2 ----│ D5                     │
-                         │                         │
+                         │                        │
  Road A Red LED ---------│ D6                     │
  Road A Yellow LED ------│ D7                     │
  Road A Green LED -------│ D8                     │
-                         │                         │
+                         │                        │
  Road B Red LED ---------│ D9                     │
  Road B Yellow LED ------│ D10                    │
  Road B Green LED -------│ D11                    │
